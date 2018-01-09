@@ -4,7 +4,10 @@ import prv.zohar.kotlinstudy.classesandobjects.Person
 import prv.zohar.kotlinstudy.classesandobjects.Student
 
 object TestKt {
-    @JvmStatic fun main(args: Array<String>) {
+    lateinit var lvar: Person
+
+    @JvmStatic
+    fun main(args: Array<String>) {
         val person1 = Person("Smith")
         var person2 = Person("Jim", 18)
         val person3 = Person("Lily", 17, "girl")
@@ -17,5 +20,12 @@ object TestKt {
         student1.say()
         println("student3.name = " + student3.name + ", student3.age = " + student3.age + ", student3.sex = " + student3.sex)
 
+        /*lvar = Person("Tom", 19, "boy")
+        lvar.s = Student("a", 19, "")
+        if (lvar::s.isInitialized) {
+            println(lvar.name + " is " + lvar.age + " years old")
+        }*/
+
+        println("student1.numStr = " + student1.numStr)
     }
 }

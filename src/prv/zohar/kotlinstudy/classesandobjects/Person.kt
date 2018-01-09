@@ -4,6 +4,11 @@ package prv.zohar.kotlinstudy.classesandobjects
 open class Person {
     open val x: Int = 123
 
+    fun get() {
+
+    }
+
+    lateinit var s: Student
     var name: String = ""
     var age: Int = -1
     var sex: String = ""
