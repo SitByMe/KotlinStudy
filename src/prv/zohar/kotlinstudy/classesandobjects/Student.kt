@@ -1,8 +1,11 @@
 package prv.zohar.kotlinstudy.classesandobjects
 
 class Student : Person, Play {
-    override val num: Int
+    override var num: Int
         get() = 1
+        set(value) {
+            num = value
+        }
 
     override fun look() {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.

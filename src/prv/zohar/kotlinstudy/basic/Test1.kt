@@ -1,11 +1,14 @@
 package prv.zohar.kotlinstudy.basic
 
-object ControlFlow {
+object Test1 {
 
     const val cstr: String = "const_str"
-    @Deprecated(cstr) fun foo() {}
+    @Deprecated(cstr)
+    fun foo() {
+    }
 
-    @JvmStatic fun main(args: Array<String>) {
+    @JvmStatic
+    fun main(args: Array<String>) {
 
 //        func_if()
 

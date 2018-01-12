@@ -1,9 +1,6 @@
-package prv.zohar.kotlinstudy
+package prv.zohar.kotlinstudy.classesandobjects
 
-import prv.zohar.kotlinstudy.classesandobjects.Person
-import prv.zohar.kotlinstudy.classesandobjects.Student
-
-object TestKt {
+object Test2 {
     lateinit var lvar: Person
 
     @JvmStatic
