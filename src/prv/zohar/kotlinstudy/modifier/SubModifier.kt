@@ -1,6 +1,6 @@
 package prv.zohar.kotlinstudy.modifier
 
-class SubModifier : Modifier() {
+class SubModifier : Modifier("subPri", 18) {
     fun funcA() {
         //private 不可访问
         //protected、internal、public 可访问
