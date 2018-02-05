@@ -17,11 +17,11 @@ object Test2 {
         student1.say()
         println("student3.name = " + student3.name + ", student3.age = " + student3.age + ", student3.sex = " + student3.sex)
 
-        /*lvar = Person("Tom", 19, "boy")
+        lvar = Person("Tom", 19, "boy")
         lvar.s = Student("a", 19, "")
-        if (lvar::s.isInitialized) {
+        if (Test2::lvar.isInitialized) {
             println(lvar.name + " is " + lvar.age + " years old")
-        }*/
+        }
 
         println("student1.numStr = " + student1.numStr)
     }

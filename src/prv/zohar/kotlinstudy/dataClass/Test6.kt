@@ -25,8 +25,8 @@ object Test6 {
 
         println("-------------------")
         //标准数据类
-        val p = Pair("A", 2)
-        val t = Triple("A", "B", 3)
+        val p = Pair("A11", 2)
+        val t = Triple("A11", "B", 3)
         println(p.toString())
         println(t.toString())
         val (ap, bp) = Pair("AP", 2)

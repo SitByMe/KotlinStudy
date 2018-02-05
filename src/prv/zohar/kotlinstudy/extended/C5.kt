@@ -1,6 +1,6 @@
 package prv.zohar.kotlinstudy.extended
 
-open class C constructor() {
+open class C5 constructor() {
     var str = "str"
     var int = 1
 
@@ -12,10 +12,10 @@ open class C constructor() {
     open fun f() = "member f"
 
     fun foo() {
-        println("C.foo")
+        println("C5.foo")
     }
 
     override fun toString(): String {
-        return "C(str='$str', int=$int)"
+        return "C5(str='$str', int=$int)"
     }
 }
